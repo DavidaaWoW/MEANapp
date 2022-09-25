@@ -6,8 +6,8 @@ var bodyParser = require("body-parser");
 const app = express();
 
 const pool = mysql.createPool({
-  host: "localhost",
-  user: "root",
+  host: "192.168.101.62",
+  user: "remoteuser",
   database: "ippdb",
   password: "1",
 });
